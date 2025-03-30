@@ -9,3 +9,7 @@ stop:
 .PHONY: reload
 reload:
 	docker compose exec reverse_proxy nginx -s reload
+
+.PHONY: check
+check:
+	docker compose exec reverse_proxy nginx -t
