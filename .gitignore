@@ -1,3 +1,4 @@
+/conf/sites-enabled/*
 /conf/sites-available/*
 !/conf/sites-available/example.com
 

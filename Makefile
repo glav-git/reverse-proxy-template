@@ -6,9 +6,9 @@ up:
 stop:
 	docker compose stop
 
-.PHONY: reload
-reload:
-	docker compose exec reverse_proxy nginx -s reload
+.PHONY: rebuild
+rebuild:
+	docker compose up --build -d
 
 .PHONY: check
 check:
