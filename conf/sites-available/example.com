@@ -41,3 +41,5 @@ server {
     listen [::]:80;
     return 404;
 }
+
+# vim: syntax=nginx
