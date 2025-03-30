@@ -1,0 +1,8 @@
+/conf/sites-available/*
+!/conf/sites-available/example.com
+
+/cert/*
+/cert/*/
+!/cert/cloudflare/
+
+/logs/
